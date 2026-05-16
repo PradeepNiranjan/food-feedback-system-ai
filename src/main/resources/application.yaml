@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: foodFeedback
+  profiles:
+    active: h2
+  ai:
+    openai:
+      base-url: https://api.groq.com/openai
+      api-key: past you key here
+      chat:
+        options:
+          model: llama-3.3-70b-versatile
